@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+// import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:newchat/view/HomePage.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       GoRoute(
         path: "/home",
         builder: (context,state){
-          return HomePage();
+          return const HomePage();
         }
         ),
       // GoRoute(
